@@ -38,6 +38,11 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -61,7 +66,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                hu.petrik.fuzesitamas_javafxrestclientdolgozat/hu.petrik.fuzesitamas_javafxrestclientdolgozat.HelloApplication
+                                hu.petrik.fuzesitamas_javafxrestclientdolgozat/hu.petrik.fuzesitamas_javafxrestclientdolgozat.App
                             </mainClass>
                         </configuration>
                     </execution>
